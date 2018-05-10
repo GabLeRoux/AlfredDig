@@ -1,0 +1,8 @@
+os: osx
+language: python
+python:
+- '3.3'
+
+install: make
+test: make test
+
