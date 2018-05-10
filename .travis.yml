@@ -5,4 +5,4 @@ services:
 install:
 - docker build . -t phallstrom/alfreddig
 script:
-- docker run phallstrom/AlfredDig
+- docker run -it phallstrom/alfreddig
