@@ -4,5 +4,5 @@ python:
 - '3.3'
 
 install: make
-test: make test
+script: make test
 
