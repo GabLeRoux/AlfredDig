@@ -3,6 +3,6 @@ language: ruby
 services:
   - docker
 install:
-- docker build . -t phallstrom/AlfredDig
+- docker build . -t phallstrom/alfreddig
 script:
 - docker run phallstrom/AlfredDig
