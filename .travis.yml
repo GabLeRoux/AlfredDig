@@ -1,7 +1,8 @@
-language: python
-python:
-- '3.3'
-
-install: make
-script: make test
-
+sudo: required
+language: ruby
+services:
+  - docker
+install:
+- docker build . -t phallstrom/AlfredDig
+script:
+- docker run phallstrom/AlfredDig

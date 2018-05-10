@@ -19,7 +19,7 @@ clean:
 	rm -rf $(EXTENSION)
 
 test:
-	@roundup tests/test_*
+	@roundup tests/*-test.sh
 
 local-install:
 	[[ -d "$(INSTALL_DIR)" ]] && cp -r $(PKG_FILES) "$(INSTALL_DIR)/"
